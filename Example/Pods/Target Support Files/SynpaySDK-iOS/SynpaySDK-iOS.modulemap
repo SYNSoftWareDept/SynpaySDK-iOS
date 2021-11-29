@@ -1,0 +1,6 @@
+framework module SynpaySDK_iOS {
+  umbrella header "SynpaySDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

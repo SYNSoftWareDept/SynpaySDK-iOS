@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		ACE57868FAFC54190B39561BF98C0EE6 /* SynpaySDK-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5C7A7255C2CC1558B22808AD02D6533E /* Build configuration list for PBXAggregateTarget "SynpaySDK-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "SynpaySDK-iOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		12F9C330A903D7947002CD8B477AC38D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		14F6E9303CB0325CA9D65EEADD8FD62D /* Pods-SynpaySDK-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD45D522018E20F662DB07FCBA1529A2 /* Pods-SynpaySDK-iOS_Example-dummy.m */; };
+		4A68E94015EEF920A522AFE6F8DECEDC /* Pods-SynpaySDK-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A316C059D1B836CAD222596359ACA177 /* Pods-SynpaySDK-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0794BA52316DF5694852FB93A4B800 /* Pods-SynpaySDK-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A80DBEA14BE561AEEB2BF0DFA7F278C /* Pods-SynpaySDK-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B47A7FF1FABBFC8F6F1ED5C6912EE65C /* Pods-SynpaySDK-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CD7F7787C9710E1830768278EC126C /* Pods-SynpaySDK-iOS_Tests-dummy.m */; };
+		D21157FA32B86CF091E818534508F496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36E9DF6AA4214B2BE8804298383ED6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DCF0314BC716D177CC39D85E09623D;
+			remoteInfo = "Pods-SynpaySDK-iOS_Example";
+		};
+		59E9801074814372A5B562D9BDE342ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE57868FAFC54190B39561BF98C0EE6;
+			remoteInfo = "SynpaySDK-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9D29255B9DDC08D354AF135920800A /* Pods-SynpaySDK-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SynpaySDK-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		1AA0A73DD7D9B01528BF475273F576DA /* Pods-SynpaySDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SynpaySDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1F4157F107A6F607AF6D1BA360B148B5 /* Pods-SynpaySDK-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SynpaySDK-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		2C418412E2C4A268B9678E5051150307 /* Pods-SynpaySDK-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SynpaySDK-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D3888B9513BA61E079C77687A60AA28 /* SynpaySDK-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "SynpaySDK-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3636E9A75DD207DB14E191C61901BACE /* Pods-SynpaySDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SynpaySDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3A80DBEA14BE561AEEB2BF0DFA7F278C /* Pods-SynpaySDK-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SynpaySDK-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B4E61B0E471309C9FD9BBC281DEE96C /* Pods-SynpaySDK-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SynpaySDK-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		793C1F4C3FBF19CD9B642142F3E129CC /* Pods-SynpaySDK-iOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SynpaySDK-iOS_Example"; path = Pods_SynpaySDK_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD50AE89B3DA036D962F028C83F41BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7D30C818BCD9AD04EAC265B5EDFE5212 /* Pods-SynpaySDK-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SynpaySDK-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8670AF59D6D6782FB2603DE4CC5E0E38 /* Pods-SynpaySDK-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SynpaySDK-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		9312795A46B93D85E88DB5CC6FBC9E5C /* Pods-SynpaySDK-iOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SynpaySDK-iOS_Tests"; path = Pods_SynpaySDK_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A216CA98D3BAAE796AC5AF8DA3F2E7B4 /* SynpaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SynpaySDK.framework; path = "SynpaySDK-iOS/SynpaySDK.framework"; sourceTree = "<group>"; };
+		A316C059D1B836CAD222596359ACA177 /* Pods-SynpaySDK-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SynpaySDK-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C3272A04BF80465E7CF4AEC7DD00FCB0 /* SynpaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SynpaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C8B86EAA2CBBB33C23A7CF4F30E9AFB0 /* Pods-SynpaySDK-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SynpaySDK-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		C9C1532DB76F941757A21E31D5291808 /* Pods-SynpaySDK-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SynpaySDK-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CBE5C30E2C16D4BE0300CADBF92A966F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CDFDE3558D8B7784C05650A835C732C6 /* SynpaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SynpaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CD7F7787C9710E1830768278EC126C /* Pods-SynpaySDK-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SynpaySDK-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		EA98E8F0E18338D4DC3B61C25AFE07E4 /* Pods-SynpaySDK-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SynpaySDK-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B4D66403F0D2920040B566F55C4D1B /* Pods-SynpaySDK-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SynpaySDK-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD45D522018E20F662DB07FCBA1529A2 /* Pods-SynpaySDK-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SynpaySDK-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C798FFDAC4ED9B773EEEC7C0F66CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21157FA32B86CF091E818534508F496 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83518896FD08E7C2EB6FBCF954D5ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F9C330A903D7947002CD8B477AC38D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62C83DBAB7A1BFD42AAC301FF1F45B97 /* Pods-SynpaySDK-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4157F107A6F607AF6D1BA360B148B5 /* Pods-SynpaySDK-iOS_Tests.modulemap */,
+				F5B4D66403F0D2920040B566F55C4D1B /* Pods-SynpaySDK-iOS_Tests-acknowledgements.markdown */,
+				7D30C818BCD9AD04EAC265B5EDFE5212 /* Pods-SynpaySDK-iOS_Tests-acknowledgements.plist */,
+				E0CD7F7787C9710E1830768278EC126C /* Pods-SynpaySDK-iOS_Tests-dummy.m */,
+				8670AF59D6D6782FB2603DE4CC5E0E38 /* Pods-SynpaySDK-iOS_Tests-Info.plist */,
+				A316C059D1B836CAD222596359ACA177 /* Pods-SynpaySDK-iOS_Tests-umbrella.h */,
+				EA98E8F0E18338D4DC3B61C25AFE07E4 /* Pods-SynpaySDK-iOS_Tests.debug.xcconfig */,
+				C9C1532DB76F941757A21E31D5291808 /* Pods-SynpaySDK-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-SynpaySDK-iOS_Tests";
+			path = "Target Support Files/Pods-SynpaySDK-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		79FE78759A2EAC485E408E243BD63FD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB41E5FC17810D3D5005B3447A67012 /* Pods-SynpaySDK-iOS_Example */,
+				62C83DBAB7A1BFD42AAC301FF1F45B97 /* Pods-SynpaySDK-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF6E3FD65BAE177BFA8ECD2C55DE9D8C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA9901FDDE096F0417307F6031EC76D4 /* SynpaySDK-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C2B4A7048A04261EDCB68CB03D8F15E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A216CA98D3BAAE796AC5AF8DA3F2E7B4 /* SynpaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2BA123599F7EA3456A2677DF62AF4F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CBE5C30E2C16D4BE0300CADBF92A966F /* LICENSE */,
+				7AD50AE89B3DA036D962F028C83F41BC /* README.md */,
+				2D3888B9513BA61E079C77687A60AA28 /* SynpaySDK-iOS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BF6E3FD65BAE177BFA8ECD2C55DE9D8C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EE91CF950C9C3ED5C7FB6EFF6781780F /* Products */,
+				79FE78759A2EAC485E408E243BD63FD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9901FDDE096F0417307F6031EC76D4 /* SynpaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2B4A7048A04261EDCB68CB03D8F15E5 /* Frameworks */,
+				C2BA123599F7EA3456A2677DF62AF4F0 /* Pod */,
+				FAD8A73D477384C870BE66319F78EE8C /* Support Files */,
+			);
+			name = "SynpaySDK-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EAB41E5FC17810D3D5005B3447A67012 /* Pods-SynpaySDK-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0B9D29255B9DDC08D354AF135920800A /* Pods-SynpaySDK-iOS_Example.modulemap */,
+				2C418412E2C4A268B9678E5051150307 /* Pods-SynpaySDK-iOS_Example-acknowledgements.markdown */,
+				5B4E61B0E471309C9FD9BBC281DEE96C /* Pods-SynpaySDK-iOS_Example-acknowledgements.plist */,
+				FD45D522018E20F662DB07FCBA1529A2 /* Pods-SynpaySDK-iOS_Example-dummy.m */,
+				C8B86EAA2CBBB33C23A7CF4F30E9AFB0 /* Pods-SynpaySDK-iOS_Example-Info.plist */,
+				3A80DBEA14BE561AEEB2BF0DFA7F278C /* Pods-SynpaySDK-iOS_Example-umbrella.h */,
+				1AA0A73DD7D9B01528BF475273F576DA /* Pods-SynpaySDK-iOS_Example.debug.xcconfig */,
+				3636E9A75DD207DB14E191C61901BACE /* Pods-SynpaySDK-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-SynpaySDK-iOS_Example";
+			path = "Target Support Files/Pods-SynpaySDK-iOS_Example";
+			sourceTree = "<group>";
+		};
+		EE91CF950C9C3ED5C7FB6EFF6781780F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				793C1F4C3FBF19CD9B642142F3E129CC /* Pods-SynpaySDK-iOS_Example */,
+				9312795A46B93D85E88DB5CC6FBC9E5C /* Pods-SynpaySDK-iOS_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD8A73D477384C870BE66319F78EE8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFDE3558D8B7784C05650A835C732C6 /* SynpaySDK-iOS.debug.xcconfig */,
+				C3272A04BF80465E7CF4AEC7DD00FCB0 /* SynpaySDK-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SynpaySDK-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14A0A4B653B2AAE0D83CF8B5DF089BE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0794BA52316DF5694852FB93A4B800 /* Pods-SynpaySDK-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809C2196668FA04CF897215711B168AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A68E94015EEF920A522AFE6F8DECEDC /* Pods-SynpaySDK-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1686047BB6AD630ACEE707665C225E9F /* Pods-SynpaySDK-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F100002A9B99792DE840913A6ED75A9 /* Build configuration list for PBXNativeTarget "Pods-SynpaySDK-iOS_Tests" */;
+			buildPhases = (
+				809C2196668FA04CF897215711B168AB /* Headers */,
+				09EF8515023DE264FC42CB16EBD4650B /* Sources */,
+				B9C798FFDAC4ED9B773EEEC7C0F66CA3 /* Frameworks */,
+				8810BC949D1C37AFA3F90B681C841DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5897365D2198F0EFD6A4284BCFB9523F /* PBXTargetDependency */,
+			);
+			name = "Pods-SynpaySDK-iOS_Tests";
+			productName = Pods_SynpaySDK_iOS_Tests;
+			productReference = 9312795A46B93D85E88DB5CC6FBC9E5C /* Pods-SynpaySDK-iOS_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		55DCF0314BC716D177CC39D85E09623D /* Pods-SynpaySDK-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620CFF65A369A0DF5A764B912173DC2A /* Build configuration list for PBXNativeTarget "Pods-SynpaySDK-iOS_Example" */;
+			buildPhases = (
+				14A0A4B653B2AAE0D83CF8B5DF089BE8 /* Headers */,
+				439A6190B68A6B35583FB750C654F96A /* Sources */,
+				F83518896FD08E7C2EB6FBCF954D5ACF /* Frameworks */,
+				7C522A438434E5C863442C6B2888564F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118AB6D7507806CAFE3375450535E901 /* PBXTargetDependency */,
+			);
+			name = "Pods-SynpaySDK-iOS_Example";
+			productName = Pods_SynpaySDK_iOS_Example;
+			productReference = 793C1F4C3FBF19CD9B642142F3E129CC /* Pods-SynpaySDK-iOS_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EE91CF950C9C3ED5C7FB6EFF6781780F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DCF0314BC716D177CC39D85E09623D /* Pods-SynpaySDK-iOS_Example */,
+				1686047BB6AD630ACEE707665C225E9F /* Pods-SynpaySDK-iOS_Tests */,
+				ACE57868FAFC54190B39561BF98C0EE6 /* SynpaySDK-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C522A438434E5C863442C6B2888564F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8810BC949D1C37AFA3F90B681C841DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09EF8515023DE264FC42CB16EBD4650B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47A7FF1FABBFC8F6F1ED5C6912EE65C /* Pods-SynpaySDK-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439A6190B68A6B35583FB750C654F96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F6E9303CB0325CA9D65EEADD8FD62D /* Pods-SynpaySDK-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118AB6D7507806CAFE3375450535E901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SynpaySDK-iOS";
+			target = ACE57868FAFC54190B39561BF98C0EE6 /* SynpaySDK-iOS */;
+			targetProxy = 59E9801074814372A5B562D9BDE342ED /* PBXContainerItemProxy */;
+		};
+		5897365D2198F0EFD6A4284BCFB9523F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SynpaySDK-iOS_Example";
+			target = 55DCF0314BC716D177CC39D85E09623D /* Pods-SynpaySDK-iOS_Example */;
+			targetProxy = 36E9DF6AA4214B2BE8804298383ED6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		47191D6A4C9E03D7672ECB12D850F1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3636E9A75DD207DB14E191C61901BACE /* Pods-SynpaySDK-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Example/Pods-SynpaySDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Example/Pods-SynpaySDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		594C635C9A2D80F773EFF486E84475B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3272A04BF80465E7CF4AEC7DD00FCB0 /* SynpaySDK-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFBC9510BD6A2A3DB56128A91A92687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C1532DB76F941757A21E31D5291808 /* Pods-SynpaySDK-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Tests/Pods-SynpaySDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Tests/Pods-SynpaySDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C25274ED7EDE9F9B1B309BC072D48173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDFDE3558D8B7784C05650A835C732C6 /* SynpaySDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB79AB56EA863A181608709D55095187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA0A73DD7D9B01528BF475273F576DA /* Pods-SynpaySDK-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Example/Pods-SynpaySDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Example/Pods-SynpaySDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE998C792C559ADA478B07F38BAAC1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA98E8F0E18338D4DC3B61C25AFE07E4 /* Pods-SynpaySDK-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Tests/Pods-SynpaySDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SynpaySDK-iOS_Tests/Pods-SynpaySDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F100002A9B99792DE840913A6ED75A9 /* Build configuration list for PBXNativeTarget "Pods-SynpaySDK-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE998C792C559ADA478B07F38BAAC1A4 /* Debug */,
+				8DFBC9510BD6A2A3DB56128A91A92687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C7A7255C2CC1558B22808AD02D6533E /* Build configuration list for PBXAggregateTarget "SynpaySDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25274ED7EDE9F9B1B309BC072D48173 /* Debug */,
+				594C635C9A2D80F773EFF486E84475B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620CFF65A369A0DF5A764B912173DC2A /* Build configuration list for PBXNativeTarget "Pods-SynpaySDK-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB79AB56EA863A181608709D55095187 /* Debug */,
+				47191D6A4C9E03D7672ECB12D850F1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

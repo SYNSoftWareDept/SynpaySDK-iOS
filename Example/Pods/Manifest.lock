@@ -1,0 +1,16 @@
+PODS:
+  - SynpaySDK-iOS (0.1.0)
+
+DEPENDENCIES:
+  - SynpaySDK-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  SynpaySDK-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SynpaySDK-iOS: 8b5c403df4efddbc12fd959446565511e56c32a2
+
+PODFILE CHECKSUM: 26ea7669db36a08ecc8265eff79d40c9a6ad3fa1
+
+COCOAPODS: 1.11.2
