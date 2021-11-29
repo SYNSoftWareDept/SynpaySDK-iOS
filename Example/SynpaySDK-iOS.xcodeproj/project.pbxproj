@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D46A197275466E900D6D01E /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46A148275466E900D6D01E /* libcrypto.a */; };
 		3D46A198275466E900D6D01E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46A196275466E900D6D01E /* libssl.a */; };
+		3D46A19C2754759200D6D01E /* UIImage+SYNCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D46A19B2754759200D6D01E /* UIImage+SYNCategory.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -119,6 +120,8 @@
 		3D46A194275466E900D6D01E /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
 		3D46A195275466E900D6D01E /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
 		3D46A196275466E900D6D01E /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		3D46A19A2754759200D6D01E /* UIImage+SYNCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SYNCategory.h"; sourceTree = "<group>"; };
+		3D46A19B2754759200D6D01E /* UIImage+SYNCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYNCategory.m"; sourceTree = "<group>"; };
 		5D51C55C5E15DCD76419509A /* Pods-SynpaySDK-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynpaySDK-iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-SynpaySDK-iOS_Tests/Pods-SynpaySDK-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SynpaySDK-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SynpaySDK-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -284,6 +287,15 @@
 			path = openssl;
 			sourceTree = "<group>";
 		};
+		3D46A1992754759200D6D01E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3D46A19A2754759200D6D01E /* UIImage+SYNCategory.h */,
+				3D46A19B2754759200D6D01E /* UIImage+SYNCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +334,7 @@
 			isa = PBXGroup;
 			children = (
 				3D46A146275466D000D6D01E /* Library */,
+				3D46A1992754759200D6D01E /* Category */,
 				6003F59C195388D20070C39A /* SYNAppDelegate.h */,
 				6003F59D195388D20070C39A /* SYNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -535,6 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46A19C2754759200D6D01E /* UIImage+SYNCategory.m in Sources */,
 				6003F59E195388D20070C39A /* SYNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SYNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
