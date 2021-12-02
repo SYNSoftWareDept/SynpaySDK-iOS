@@ -22,7 +22,7 @@ pod 'SynpaySDK-iOS'
 
 ## Author
 
-gosoftware@synjones.com, 93463155+SYNSoftWareDept@users.noreply.github.com
+Boole, gaoliqiang@synjones.com
 
 ## License
 
