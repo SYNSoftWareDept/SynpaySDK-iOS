@@ -1,6 +1,0 @@
-framework module SynpaySDK {
-  umbrella header "SynpaySDK.h"
-
-  export *
-  module * { export * }
-}
