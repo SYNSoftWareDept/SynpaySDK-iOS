@@ -67,11 +67,10 @@
     //  开始测试前请先提供您的BundleId
     //  切换测试环境时BundleId也要更换
     SynpayConfig *config = [[SynpayConfig alloc] init];
-    config.socketUtl = @"wss://ecard.zju.edu.cn/websocket/mobile_service_platform/qrcode_ykt";
-    config.serverUrl = @"https://ecard.zju.edu.cn";
-    config.appKey = @"mobile_service_platform_sdk_secret";
+    config.socketUtl = @"ws://219.143.144.135/websocket/mobile_service_platform/qrcode_ykt";
+    config.serverUrl = @"http://219.143.144.135";
     config.appId = @"sdk";
-    config.token = @"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19maXJzdF9sb2dpbiI6ZmFsc2UsInNubyI6IlpaMjAyMDAwMTczMCIsInVzZXJfbmFtZSI6IjEzMDUxNTU3OTk5Iiwic2NvcGUiOlsiYWxsIl0sImxvZ2ludHlwZSI6InZlcmlmaWNhdGlvbkNvZGUiLCJuYW1lIjoi6auY5Li95by6IiwiaWQiOjI3NzQ4OSwiZXhwIjoxNjQ0NDcyODAzLCJsb2dpbkZyb20iOiJhcHAiLCJ1dWlkIjoiNjg4YzU3NzljYTc0Yzg0ZjBiMWE0YTIwYWU3YWRlNzAiLCJqdGkiOiJhMWU3OGQzYi00YzJiLTQxNGMtODY3ZS02MDUwNzY3MzMxZDkiLCJjbGllbnRfaWQiOiJtb2JpbGVfc2VydmljZV9wbGF0Zm9ybSJ9.__NuquEHt1pcv0cXouyjinpkD9bedpf87NuXllJoxHw";
+    config.token = @"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19maXJzdF9sb2dpbiI6dHJ1ZSwic25vIjoiMjM1NTEiLCJ1c2VyX25hbWUiOiIyMzU1MSIsInNjb3BlIjpbImFsbCJdLCJsb2dpbnR5cGUiOiJzbm8iLCJuYW1lIjoi5a6L5pmXIiwiaWQiOjIxODQsImV4cCI6MTY0NTAwMDA0NywibG9naW5Gcm9tIjoiYXBwIiwidXVpZCI6IjU2ZTA5YjI1ZmNhYWMxNmI4Zjk0ZDVhZGNhN2FmMDBiIiwianRpIjoiMjhhN2M3ODctZjIyMi00ODAxLThjODYtZmI1NzdmY2Y4YjM1IiwiY2xpZW50X2lkIjoibW9iaWxlX3NlcnZpY2VfcGxhdGZvcm0ifQ.HG9G4d9vJSQA3R8V6fM1JoIIA-6wX_cgjwexfkzFw1I";
     return config;
 }
 
@@ -152,7 +151,7 @@
 #pragma mark - 关闭监听
 
 - (void)dealloc {
-    [SYNSharedPaySDK stopObserveBarcode];
+    [SYNSharedPaySDK closeObserveBarcode];
 }
 
 
