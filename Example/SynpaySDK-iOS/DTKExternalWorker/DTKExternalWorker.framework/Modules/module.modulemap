@@ -1,0 +1,6 @@
+framework module DTKExternalWorker {
+  umbrella header "DTKExternalWorker.h"
+
+  export *
+  module * { export * }
+}

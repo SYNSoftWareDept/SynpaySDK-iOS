@@ -9,6 +9,7 @@
 #import "SYNViewController.h"
 #import <SynpaySDK/SynpaySDK.h>
 #import "UIImage+SYNCategory.h"
+#import "SYNResultViewController.h"
 
 @interface SYNViewController ()
 
@@ -145,6 +146,12 @@
 - (IBAction)observeOnlineCode:(id)sender {
     [SYNSharedPaySDK observeBarcode:self.barcode completion:^(NSDictionary * _Nonnull result) {
         [self logResutlt:result];
+        NSInteger code = [[result objectForKey:@"code"] integerValue];
+        if (200 == code) {
+            SYNResultViewController *rvc = [[SYNResultViewController alloc] init];
+            [self.navigationController pushViewController:rvc animated:YES];
+            [rvc setResult:[result objectForKey:@"data"]];
+        }
     }];
 }
 

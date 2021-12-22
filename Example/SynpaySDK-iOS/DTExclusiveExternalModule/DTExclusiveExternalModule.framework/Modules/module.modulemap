@@ -1,0 +1,6 @@
+framework module DTExclusiveExternalModule {
+  umbrella header "DTExclusiveExternalModule.h"
+
+  export *
+  module * { export * }
+}
