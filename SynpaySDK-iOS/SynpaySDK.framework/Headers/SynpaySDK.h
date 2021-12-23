@@ -4,8 +4,8 @@
 //
 //  Created by Objective on 2021/11/10.
 //
-//  1640063160
-//  1640236901
+//  1640242345
+//  1640244362
 
 #import <Foundation/Foundation.h>
 #import <SYNPaySDK/SynpayConfig.h>
